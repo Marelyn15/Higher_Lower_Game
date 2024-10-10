@@ -18,7 +18,7 @@ while stops == 0:
 
     proof_1 = f"Compare A: {data[compare_a]["name"]}, {data[compare_a]["description"]}, from {data[compare_a]["country"]}."
 
-    proof_2 = f"Compare B: {data[compare_b]["name"]}, {data[compare_b]["description"]}, from {data[compare_b]["country"]}."
+    proof_2 = f"Against B: {data[compare_b]["name"]}, {data[compare_b]["description"]}, from {data[compare_b]["country"]}."
     print(f"{proof_1} \n {vs} {proof_2}")
 
     # Comparing
